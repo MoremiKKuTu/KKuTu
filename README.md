@@ -18,7 +18,7 @@
 이 저장소는 여러분이 **모레미끄투**를 즐기기 위해 준비해야 할 것들에 대해 알리고 있습니다.
 
 ### 먼저
-본 레포지토리는 [플러스끄투](https://github.com/d0ul/PlKu/)의 일부 소스코드를 사용하였습니다.
+본 레포지토리는 [플러스끄투](https://github.com/d0ul/PlKu/)의 일부 소스코드를 포함합니다.
 
 ### 설치 방법
 #### Windows 환경
@@ -55,7 +55,7 @@
 - [Cloudflare](https://www.cloudflare.com/)를 이용하는 경우, DNS 탭의 status를 `DNS only`로 두세요. `DNS and HTTP proxy (CDN)`으로 둘 경우, 방 만들기와 방 입장이 불가합니다.
 
 ### 라이선스
-- 모든 소스 코드에 대해: [GNU 일반 공중 사용 라이선스](https://github.com/JJoriping/KKuTu/blob/master/LICENSE)
+- 모든 소스 코드에 대해: [GNU 아페로 공중 사용 라이선스](https://github.com/moremikkutu/KKuTu/blob/master/LICENSE)
 - 모든 이미지 및 소리에 대해: [크리에이티브 커먼즈 라이선스 CC BY](https://creativecommons.org/licenses/by/4.0/)
 	- 다만 본 레포지토리에서 제공하는 소스 코드로 끄투 서비스를 운영하기 위해 이들을 사용하는 경우 저작자 표시(BY)를 생략할 수 있습니다.
 
