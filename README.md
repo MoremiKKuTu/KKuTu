@@ -24,7 +24,6 @@
 #### Windows 환경
 1. 이 레포지토리를 내려받습니다.
 1. [node.js](https://nodejs.org/ko/) 인스톨러를 내려받아 설치(버전 8 이상)합니다. [npm](https://www.npmjs.com/)과 함께 설치되어야 합니다.
-1. 명령 프롬프트에서 `npm install -g grunt grunt-cli`를 입력해 [grunt](https://gruntjs.com/)를 설치합니다.
 1. [PostgreSQL](https://www.postgresql.org/) 인스톨러를 내려받아 *pgAdmin*(자동으로 설치됨)과 함께 설치합니다.
 1. *pgAdmin*을 실행시키고 SQL 파일(`./db.sql`)을 데이터베이스에 입력시킵니다.
 	* 자세한 과정은 [개발자 블로그][dev-blog]를 참고하세요.
@@ -35,7 +34,7 @@
 #### Linux 환경
 1. 이 레포지토리를 내려받습니다.
 1. 패키지 매니저를 이용하여 [node.js](https://nodejs.org/)와 [npm](https://www.npmjs.com/)을 설치(버전 8 이상)합니다.
-1. `npm install -g grunt grunt-cli`를 입력해 [grunt](https://gruntjs.com/)를 설치합니다.
+1. `npm install -g webpack webpack-cli`를 입력해 [grunt](https://gruntjs.com/)를 설치합니다.
 1. 패키지 매니저를 이용하여 [PostgreSQL](https://www.postgresql.org/)과 *psql*을 설치합니다.
 1. SQL 파일(`./db.sql`)을 데이터베이스에 입력시킵니다.
 	1. 명령어를 다음 예와 같이 입력할 수 있습니다: `sudo -u postgres psql --quiet main < ./db.sql`
