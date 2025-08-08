@@ -121,7 +121,7 @@
 		"withInstagram": "인스타그램 아이디로 로그인",
 		"withSpotify": "Spotify 아이디로 로그인",
 		"login_kkutu": "글자로 놀자! 모레미끄투를 이용하시려면 로그인을 해 주세요.",
-		"loginLegal": "글자로 놀자! 모레미끄투에 로그인 하시면 운영정책에 동의하는 것으로 간주합니다."
+		"loginLegal": "글자로 놀자! 모레미끄투에 로그인 하시면 이용약관 및 <a target='_blank' href='https://www.notion.so/599a439d3e0747d2983682f2e8bd265f?source=copy_link'>개인정보 처리방침</a>에 동의하는 것으로 간주합니다."
 	},
 	"loginfail": {
 		"title": "로그인 실패",
