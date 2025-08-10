@@ -183,6 +183,14 @@ exports.RULE = {
 		ai: false,
 		big: true,
 		ewq: false
+	},
+	'FRE': { lang: "ko",
+		rule: "Free",
+		opts: [ "mis" ],
+		time: 1,
+		ai: false,
+		big: false,
+		ewq: true
 	}
 };
 exports.getPreScore = function(text, chain, tr){
