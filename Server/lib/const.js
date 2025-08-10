@@ -37,6 +37,8 @@ exports.OPTIONS = {
 	'ext': { name: "Injeong" },
 	'mis': { name: "Mission" },
 	'loa': { name: "Loanword" },
+	'ukn': { name: "Unknownword" },
+	'oij': { name: "Nooij"},
 	'prv': { name: "Proverb" },
 	'str': { name: "Strict" },
 	'k32': { name: "Sami" },
@@ -97,7 +99,7 @@ exports.RULE = {
 	},
 	'KSH': { lang: "ko",
 		rule: "Classic",
-		opts: [ "man", "ext", "mis", "loa", "str", "rank" ],
+		opts: [ "man", "ext", "mis", "loa", "str", "rank", "ukn", "oij" ],
 		time: 1,
 		ai: true,
 		big: false,
@@ -183,6 +185,14 @@ exports.RULE = {
 		ai: false,
 		big: true,
 		ewq: false
+	},
+	'FRE': { lang: "ko",
+		rule: "Free",
+		opts: [ "mis" ],
+		time: 1,
+		ai: false,
+		big: false,
+		ewq: true
 	}
 };
 exports.getPreScore = function(text, chain, tr){

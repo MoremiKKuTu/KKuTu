@@ -1420,7 +1420,12 @@ function getRewards(rankScore, mode, score, bonus, rank, all, ss, opts){
 			rw.score += score * 1.42;
 			break;
 		case "KSH":
-			rw.score += score * 0.55;
+			if(!opts.unknownword){
+				rw.score += score * 0.55;
+			}
+			else{
+				rw.score += 0;
+			}
 			break;
 		case "CSQ":
 			rw.score += score * 0.4;
@@ -1452,6 +1457,8 @@ function getRewards(rankScore, mode, score, bonus, rank, all, ss, opts){
 		case 'ESS':
 			rw.score += score * 0.22;
 			break;
+		case 'FRE':
+			return { score: 0, money: 0 };
 		default:
 			break;
 	}

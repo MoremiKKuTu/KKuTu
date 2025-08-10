@@ -162,6 +162,7 @@ span{
 #global-notice{
 	margin-top: 60px;
 	color: white;
+	text-align: center;
 	font-weight: bold;
 	cursor: pointer;
 	z-index: 5;
@@ -171,9 +172,11 @@ span{
 	position: absolute;
 	left: 0;
 	right: 0;
-	background-color: #EEBB33;
+	background: rgb(0,0,0);
+	background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 100%);
 	padding: 3px 0px;
 	z-index: -1;
+	
 }
 .searching{
 	color: #EEEEEE;
